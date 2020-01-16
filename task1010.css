@@ -1,0 +1,339 @@
+.grean-color{color: #1a7968;}
+.gold-color {color: #b97a56;}
+
+
+body{direction: rtl;
+font-family: 'Changa', 'sans-serif';}
+
+header .background {background-image: url('../img/H1-background-img-1.JPG');
+width: 100%;
+color: white;
+font-weight: 450}
+
+header a {text-decoration: none;
+color: white;
+padding: 7px;}
+
+
+
+header a:hover{color: #000;}
+header p:hover{color: #000;}
+
+/*------------------------End of Header----------------------------------------*/
+
+
+.nav{text-align: center;
+position: sticky;
+top: 0px;
+z-index: 1;
+background-color: white;
+width: 100%;
+padding: 20px;
+margin-bottom: 90px;}
+
+
+.nav .color-1 a , .color-2 a , .color-3 a {color:#b97a56;
+font-weight: 500;
+border-radius: 25%;
+padding: 15px;}
+
+.nav .color-2 a {padding: 20px;
+text-decoration: none;}
+
+.nav a:hover{background: #1a7968;
+color: #fff;}
+/*------------------------End of Nav----------------------------------------*/
+
+
+.slider{background-color:rgb(245, 245, 245);
+position: relative;
+height: 500px;}
+
+
+.slider > div {display: none;}
+
+.active {display: block
+! important;}
+
+
+.slider .pillow1 , .pillow2 , .pillow3 {width: 18%}
+.slider .tree-1 , .tree-2 , .tree-3 {width: 10%}
+
+
+.slider .pillow1{position: absolute;
+right: 60%;
+top: -18%;}    
+.slider .pillow2{position: absolute;
+right: 50%;
+top: 38%;}
+.slider .pillow3{position: absolute;
+right: 70%;
+top: 38%;}
+
+.slider .tree-1 {position: absolute;
+right: 0%;}
+.slider .tree-2 {position: absolute;
+left: 0%;}
+.slider .tree-3 {position: absolute;
+top: 50%;
+left: 0;}
+.slider .tree-4 {position: absolute;
+bottom:0%;
+left: 80%;
+width: 10%;}
+
+.slider .article-1 {text-align: right;
+position: absolute;
+right: 150px;
+top: 30%;}
+
+.slider .border-1{position: absolute;
+left: 1%;
+top:114%;
+width: 35%;
+height: 60px;
+text-align: center;
+border: 1px solid #b97a56;}
+
+.slider .border-2{position: absolute;
+left: 2%;
+top: 116%;
+width: 35%;
+height: 60px;
+text-align: center;
+border: 1px solid #b97a56;}
+
+.slider h5 {font-size: 1.25rem;
+position: absolute;
+left: 10%;
+bottom: -40%}
+
+
+.slider .light-1 {width:auto;
+height: 250px;
+position: absolute;
+top:0%;
+left: 35%;}
+
+.slider .light-2{width: 35%;
+height: 500px;}
+
+.slider .sofa-3 {width: 30%;
+height: 200px;
+position: absolute;
+left: 5%;
+bottom: 18%;}
+
+.slider .light-3{width: auto;
+height: 200px;
+position: absolute;
+left: 15%;
+top: 0%;}
+
+.slider .light-4 {position: absolute;
+bottom: 0%;
+left: 30%;
+width: auto;
+height: 400px;}
+
+/*______________________end of slider ______________________*/
+
+
+.latest-products .tab-1 { border: 1px solid #b97a56;
+  list-style-type: none;
+  font-weight: 700;
+  padding: 10px 0px;
+  font-size: 18px;
+  border-radius: 5%;}
+  
+  .latest-products .tab-1:hover{background-color: #1a7968;
+  color: #fff;}
+  
+  .hover {position: relative;}
+  
+  .hover .caption{display: none;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  transition: 2s ease-in;}
+
+  .hover:hover .caption{display: block;
+  background-image:url('../img/download(1)d.JFIF');}
+  
+  .hover .caption div {background-image:url('../img/shop-img-2-600x736.jpg');
+  position: relative;
+  top: 50%;}
+
+  .latest-products .products-button {background: #1a7968;
+  color: #fff;
+  position: relative;
+  right: 45%;
+  border: 0;
+  padding: 10px 20px;}
+
+  /*------------------------End of latest products----------------------------------------*/
+
+  .banner {background-image: url('../img/H1-background-img-1.JPG');;
+  color: #fff;
+  font-weight: 500;
+  font-size: 17px;}
+    
+  .banner .icon-color {color: #fff;
+  display: inline;
+  text-align: center;
+  font-size: 30px;}
+    
+/*------------------------End of banner----------------------------------------*/
+.section-1{width:372px;
+height:374px;
+background-color: #f1f1f1;
+border: 1px solid #b97a56;
+color: #1a7968;
+text-align: center;
+position: relative;
+font-size: 30px}
+
+.section-1 span {font-size: 20px;
+cursor: pointer;}
+.section-1 span:hover {color: #b97a56;}
+
+
+.icon-size{font-size: 50px}
+
+.section-1 .border-1{display: inline-block;
+width: 68%;
+height: 60px;
+text-align: center;
+border: 1px solid #b97a56;}
+
+.section-1 .border-2{display: inline-block;
+width: 39%;
+height: 60px;
+border: 1px solid #b97a56;
+position: absolute;
+left: 29%;
+top: 68%;}
+
+.section-caption {padding: 80px;}
+
+.sections img:hover{opacity: .7;}
+
+/*------------------------End of sections----------------------------------------*/
+
+.blogs{background-image: url('../img/H1-background-img-2a.Jpg');
+  width: 100%;
+  height: 500px;
+  color: #fff;}
+  
+  
+  .blogs h2 {font-size: 50px;}
+  
+  .blogs h3{font-weight: 300;
+  font-size: 40px;}
+  
+  .blogs .title{background: #b97a56;
+  width: 70%;
+  text-align: center;
+  position: relative;
+  bottom: 20%;
+  right:15%
+  }
+  
+  .title h5 , h6 {font-size: 20px !important;
+  color: #000;}
+  
+  /*------------------------End of blogs----------------------------------------*/
+  
+  
+  footer {background-image: url("../img/footer-bg.jpg");
+  height: 500px;
+  color:#fff;
+  font-size: 17px;
+  position: relative;
+text-align: center;}
+      
+      
+  .foot-background{background: #000;
+  opacity: .8;
+  height: 500px;
+  display:flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top:70%;
+  bottom:0;
+  right:0;
+  left:0;}
+      
+  .foot1 {width: 25%;}
+  
+  .gallery2{display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;}
+      
+  .gallery2 > div {width: 25%;}
+      
+      
+  .list {display: flex;
+  justify-content: space-between;}
+  
+  .list  > ul {list-style-type: none;
+  padding: 0px;
+  width: 50%;}
+  
+  .list li {padding: 0px 8px;}
+  footer h5 {font-size: 24px;}
+  
+  footer button{background: #007bff;
+  padding: 5px;}
+  
+  footer input {padding: 5px;}
+  
+  .foot-button {margin-top: 20px;}
+  
+  .copyright {color: #fff;
+  text-align: center;
+  clear: both;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;}
+  
+  
+  
+  .post:hover h5{
+      color: red;
+  }
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
